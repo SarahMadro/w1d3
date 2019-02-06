@@ -3,7 +3,7 @@ function countLetters(char) {
   let newStr = char.split('');
 
   newStr.forEach(function(elm) {
-    if (elm != ' ') {
+    if (elm !== ' ') {
       let letter = elm;
 
       if(outputObj[letter]) {
